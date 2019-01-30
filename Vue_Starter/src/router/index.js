@@ -204,6 +204,7 @@ var DccRouter = {
     }
   ]
 }
+
 export default new Router({
   mode: 'hash',
   linkActiveClass: 'open active',
