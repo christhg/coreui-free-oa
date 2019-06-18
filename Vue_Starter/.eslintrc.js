@@ -26,6 +26,10 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // 取消 eslint 提示,0:忽略，1:警告，2:錯誤
-    'indent': 0
+    'indent': 0,
+    //allows trailing whitespace on empty lines
+    "skipBlankLines": true,
+    //allows trailing whitespace in comment blocks
+    "ignoreComments": true
   }
 }

@@ -4,6 +4,7 @@
 </div>
 </template>
 <script>
+/* eslint-disable */
 import { VoBasic } from 'vue-orgchart'
 import { getOrgsTree } from '@/api/Orgs/getOrgsTree.js'
 

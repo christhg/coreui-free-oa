@@ -1,3 +1,4 @@
+
 <template>
 <div id="app">
   <router-view></router-view>
@@ -6,7 +7,8 @@
 </template>
 
 <script>
-// import { mapState } from 'vuex'
+/* eslint-disable */
+//import { mapState } from 'vuex'
 import MyLoading from '@/views/components/MyLoading'
 
 export default {

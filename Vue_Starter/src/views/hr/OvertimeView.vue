@@ -2,7 +2,7 @@
   <div id="pdfDom" style="background-color:#fff;">
     <b-row>
       <b-col sm="8" class="mx-auto">
-        <b-card class="card-accent-primary">    
+        <b-card class="card-accent-primary">
             <div slot="header" class="my-3">
               <h4><strong>加班申請單</strong> - {{form.master.OVERTIME_NO}}</h4>
               <span>加班申请流程用于对企业内员工需要加班时的申请审批</span>          
@@ -86,6 +86,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import * as moment from 'moment';
 import { formatDate } from '@/utils/formatDate.js'
 import { getOvertimesDetails } from '@/api/HR/getOvertimesDetails.js'

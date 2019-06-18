@@ -32,11 +32,11 @@
     ></v-table>
     <div class="mt20 mb20 bold"></div>
         <v-pagination @page-change="pageChange" @page-size-change="pageSizeChange" :total="tableConfig.total" :page-size="pageSize" :layout="['total', 'prev', 'pager', 'next', 'sizer', 'jumper']"></v-pagination>
-    </div>  
-</div>         
+    </div>
+</div>
 </template>
-
 <script>
+/* eslint-disable no-trailing-spaces*/
 import { MessageBox } from 'element-ui';
 import { getPagesOrgs } from '@/api/Orgs/getPagesOrgs.js'
 import { putOrgsOrg } from '@/api/Orgs/putOrgsOrg.js'
@@ -138,15 +138,15 @@ export default {
 }
 </script>
 <style>
-    .cell-edit-color{
-        color:#2db7f5;
-        font-weight: bold;
-    }
-    .title-cell-class-name-test{
-        background-color: #f60;
-        color:#fff;
-    }
-    .column-cell-class-name-test{
-        background-color: #2db7f5;
-    }    
+.cell-edit-color{
+    color:#2db7f5;
+    font-weight: bold;
+}
+.title-cell-class-name-test{
+    background-color: #f60;
+    color:#fff;
+}
+.column-cell-class-name-test{
+    background-color: #2db7f5;
+}    
 </style>

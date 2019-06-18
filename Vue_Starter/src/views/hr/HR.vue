@@ -5,11 +5,12 @@
     </div>
 </template>
 <script>
-    export default {
-        data(){
-            return {
-    
-            }
+ /* eslint-disable */
+export default {
+    data(){
+        return {
+
         }
     }
+}
 </script>

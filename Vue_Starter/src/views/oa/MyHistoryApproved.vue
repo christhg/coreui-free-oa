@@ -52,9 +52,8 @@
 
   </b-container>
 </template>
-
 <script>
-
+/* eslint-disable no-trailing-spaces*/
 import MySteps from '@/views/OA/MySteps'
 import { MessageBox } from 'element-ui';
 import { getWaitingListsHistory } from '@/api/wflow/getWaitingListsHistory.js'
