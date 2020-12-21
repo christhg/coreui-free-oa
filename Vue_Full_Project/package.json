@@ -75,7 +75,7 @@
     "lolex": "^2.4.1",
     "mocha": "^5.1.1",
     "nightwatch": "^0.9.21",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^8.0.1",
     "node-sass": "^4.9.0",
     "optimize-css-assets-webpack-plugin": "^4.0.1",
     "ora": "^2.1.0",
